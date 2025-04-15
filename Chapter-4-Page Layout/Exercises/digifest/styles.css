@@ -1,0 +1,73 @@
+/* Fonts and general styles */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  h1, h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Header */
+  header {
+    background-color: #17072b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation menu */
+  nav {
+    background-color: #172d67;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 20px;
+    display: block;
+  }
+  
+  /* Main content */
+  main {
+    padding: 20px;
+  }
+  
+  .lineup-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .lineup-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
