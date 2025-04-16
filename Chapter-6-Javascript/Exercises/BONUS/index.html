@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple RGB Guesser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>RGB Color Guesser 🎯</h1>
+  <p>Guess which box matches: <span id="rgbCode">rgb(?, ?, ?)</span></p>
+  <div id="score">Points: 0</div>
+
+  <div class="colors">
+    <div class="box" onclick="checkColor(this)"></div>
+    <div class="box" onclick="checkColor(this)"></div>
+    <div class="box" onclick="checkColor(this)"></div>
+  </div>
+
+  <p id="message">Click a box to guess!</p>
+  <button onclick="newGame()">New Game 🔁</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
